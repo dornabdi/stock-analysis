@@ -20,10 +20,11 @@ While analyzing stock performance is important, the goal of refactoring the code
 <br/>![VBA_Challenge_2017](VBA_Challenge_2017.png)  ![VBA_Challenge_2018](VBA_Challenge_2018.png) <br/>
 ## Summary 
 
-### Advantages and Disadvantages of Refactoring Code and Debrief
-
+### Advantages and Disadvantages of Refactoring Code
 There are clear advantages to refactoring code: clean and concise code can eliminate a lot of extra time and energy the computer must exert to execute code. This is much more evident when I work on large scale projects that contain large datasets or advanced coding. However, refactoring code does add more human time and energy. Code can execute in many different ways and sometimes speedy coding is more important than speedy execution. However, building strong, clean, and organized coding habits can make refactoring much more practical. <br/>
-More specifically, creating an outline of the code was key in writing the original and refactored script. When it came time to refactor the code, I had to sit down and rethink the script conceptually before redoing the outline and script. When I realized that the key here is to eliminate nested for loops, I could look at my outline in the comments and reconfigure the VBA script to include the subscript of tickerIndex instead. This way, I could access my arrays more efficiently. 
+
+### Refactoring VBA Code
+More specifically, creating an outline of the code was key in writing the original and refactored script. When it came time to refactor the code, I had to sit down and rethink the script conceptually before redoing the outline and script. When I realized that the key here is to eliminate nested for loops, I could look at my outline in the comments and reconfigure the VBA script to include the subscript of tickerIndex instead. This way, I could access all three of my arrays (tickerVolumes, tickerStartingPrices, and tickerEndingPrices) more efficiently. Refactoring the code this way made the execution much more efficient but I did have to invest time on the front end to cut time off in execution. 
 
 
 
