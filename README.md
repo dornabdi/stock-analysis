@@ -22,7 +22,7 @@ While analyzing stock performance is important, the goal of refactoring the code
 
 I added a timer to time the running of the code and create a message box to deliver how long it took for the code to execute for each year. The code ran in approximately 0.18 seconds for the year 2017 and 0.16 seconds for the year 2018. See images of the message boxes for both years below.
 
-<br/> 2017 Execution Time ![VBA_Challenge_2017](VBA_Challenge_2017.png)  <br/> 2018 Execution Time ![VBA_Challenge_2018](VBA_Challenge_2018.png) <br/>
+<br/> 2017 Execution Time <br/> ![VBA_Challenge_2017](VBA_Challenge_2017.png)  <br/> 2018 Execution Time <br/>![VBA_Challenge_2018](VBA_Challenge_2018.png) <br/>
 ## Summary 
 
 ### Advantages and Disadvantages of Refactoring Code
