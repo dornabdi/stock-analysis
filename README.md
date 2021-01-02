@@ -17,7 +17,7 @@ It is also important to note stock volatility. Some stocks (like DQ and SEDG wen
 ### Execution Performance
 While analyzing stock performance is important, the goal of refactoring the code is to build efficiency. The key here was to eliminate nested for loops and build shorter, more straightforward looping. In the two images below, you will see the original nested for-loops and the refactored separated for-loops of the same code function. 
 
-<br/>![original](original.png)  ![refactor](refactor.png) <br/>
+<br/> Original All Stocks Analysis ![original](original.png)   Refactored All Stocks Analysis![refactor](refactor.png) <br/>
 
 
 I added a timer to time the running of the code and create a message box to deliver how long it took for the code to execute for each year. The code ran in approximately 0.18 seconds for the year 2017 and 0.16 seconds for the year 2018. See images of the message boxes for both years below.
