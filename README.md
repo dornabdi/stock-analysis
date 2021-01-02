@@ -15,7 +15,12 @@ It is also important to note stock volatility. Some stocks (like DQ and SEDG wen
 <br/>![2017Data](2017Data.png)  ![2018Data](2018Data.png) <br/>
 
 ### Execution Performance
-While analyzing stock performance is important, the goal of refactoring the code is to build efficiency. I added a timer to time the running of the code and create a message box to deliver how long it took for the code to execute for each year. The code ran in approximately 0.18 seconds for the year 2017 and 0.16 seconds for the year 2018. See images of the message boxes for both years below.
+While analyzing stock performance is important, the goal of refactoring the code is to build efficiency. The key here was to eliminate nested for loops and build shorter, more straightforward looping. In the two images below, you will see the original nested for-loops and the refactored separated for-loops of the same code function. 
+
+<br/>![original](original.png)  ![refactored](refactored.png) <br/>
+
+
+I added a timer to time the running of the code and create a message box to deliver how long it took for the code to execute for each year. The code ran in approximately 0.18 seconds for the year 2017 and 0.16 seconds for the year 2018. See images of the message boxes for both years below.
 
 <br/>![VBA_Challenge_2017](VBA_Challenge_2017.png)  ![VBA_Challenge_2018](VBA_Challenge_2018.png) <br/>
 ## Summary 
