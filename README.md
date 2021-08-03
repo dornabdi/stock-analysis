@@ -12,7 +12,7 @@ After refactoring the code, I viewed the data for the same 12 stocks for the yea
 
 It is also important to note stock volatility. Some stocks (like DQ and SEDG went from over 100% in returns in 2017 to the negative in 2018. Meanwhile, other stocks remained consistent in return performance between the two years. I have included an image of this dataset below. 
 
-<br/> 2017 Performance ![2017Data](2017Data.png)  <br/> 2018 Performance ![2018Data](2018Data.png) <br/>
+<br/> 2017 Performance ![2017Data](.images/2017Data.png)  <br/> 2018 Performance ![2018Data](/images/2018Data.png) <br/>
 
 ### Execution Performance
 While analyzing stock performance is important, the goal of refactoring the code is to build efficiency. The key here was to eliminate nested for loops and build shorter, more straightforward looping. In the two images below, you will see the original nested for-loops and the refactored separated for-loops of the same code function. 
